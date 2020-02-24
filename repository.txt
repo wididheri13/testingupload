@@ -1,0 +1,22 @@
+Cara upload ke github :
+1. create new repository di github click +
+2. run cd ~
+3. run cd Desktop/ (atau bebas direktorinya)
+4. run git clone (address repositorynya yang copy paste)
+5. run cd (name of your repository diambil nama bagian belakangnya aja contoh test.git ambil testnya aja)
+6. run git status (untuk mengetahui status terbaru di github)
+7. run git add . (buat nambahin file baru)
+8. git commit -m "push commit"
+9. git push origin master (buat kalau upload upload ga perlu masukin password lagi)
+
+Cara nambahin file lama update upload :
+1. go to repository githubnya atau click kanan di folder yg upload github,pilih gitbash UI here http://prntscr.com/r6xoea
+2. git init (mengetahui keberadaan repository)
+3. git status (melihat file apa aja yg terbaru ada di file lokal)
+4. git add . 
+5. git status lagi sebenernya sih add dulu baru status 
+6. git commit -m "pesan apa"
+7. git remote add origin(address repositorynya yang copy paste) << kalau belom dijadiin master repositorynya
+8. git push -u origin master << kalau udah dijadiin master repositorynya langsung push aja repositorynya
+
+jangan lupa copy dulu gambar/filenya ke repository lokal
