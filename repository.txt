@@ -20,3 +20,8 @@ Cara nambahin file lama update upload :
 8. git push -u origin master << kalau udah dijadiin master repositorynya langsung push aja repositorynya
 
 jangan lupa copy dulu gambar/filenya ke repository lokal
+
+git remote set-url origin https://github.com/wididheri13/testingupload
+git push origin master
+
+biar ga semua yang dipush http://prntscr.com/r6xy4b
